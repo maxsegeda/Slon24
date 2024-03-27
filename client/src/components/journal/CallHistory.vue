@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <v-virtual-scroll
+      :height="300"
+      :items="[
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+        '3',
+      ]"
+    >
+      <template v-slot:default="{ item }"> Item {{ item }} </template>
+    </v-virtual-scroll>
+  </div>
+</template>

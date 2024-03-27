@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <v-virtual-scroll
+      :height="300"
+      :items="[
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+        '1',
+      ]"
+    >
+    </v-virtual-scroll>
+  </div>
+</template>
